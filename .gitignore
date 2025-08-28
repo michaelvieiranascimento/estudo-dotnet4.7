@@ -1,0 +1,69 @@
+## Compilação / build
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+## Configurações de usuário (não versionar)
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+## Arquivos de cache do VS
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pdb
+
+## Backups temporários
+*~
+*.swp
+*.bak
+*.tmp
+
+## Arquivos de publish / deploy
+*.Publish.xml
+publish/
+*.pubxml
+*.pubxml.user
+*.azurePubxml
+
+## Pacotes NuGet
+*.nupkg
+packages/
+!packages/build/
+
+## Arquivos de IDE alternativos
+.vscode/
+.idea/
+
+## Arquivos de testes
+TestResult*/
+[Ll]ogs/
+*.trx
+*.coverage
+*.coveragexml
+
+## Arquivos de banco locais
+*.mdf
+*.ldf
+
+## Outros
+_ReSharper*/
+*.DotSettings.user
+StyleCopReport.xml
+
+## Rider / JetBrains
+*.iml
+*.ipr
+*.iws
+out/
+
+## Arquivos gerados por ferramentas
+Generated\ Files/
+
+## Cache do NuGet
+.nuget/
